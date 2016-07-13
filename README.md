@@ -34,6 +34,14 @@ none
 POST /instantstream/start/:token //the token is returned by calling the above request api
 ```
 
+#### Body
+
+```javascript
+{
+"role":['viewer', 'dealer'] //who start the stream? optional, default is viewer
+}
+```
+
 
 ### Cancel stream
 
@@ -41,6 +49,13 @@ POST /instantstream/start/:token //the token is returned by calling the above re
 POST /instantstream/cancel/:token //the token is returned by calling the above request api
 ```
 
+#### Body
+
+```javascript
+{
+"role":['viewer', 'dealer'] //who stop the stream, optional, default is viewer
+}
+```
 
 
 ### Stop stream
