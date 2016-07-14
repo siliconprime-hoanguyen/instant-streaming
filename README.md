@@ -73,6 +73,14 @@ POST /instantstream/stop/:token //the token is returned by calling the above req
 }
 ```
 
+
+### Get stream by tokenikd
+
+```javascript
+GET /instantstream/get/:token //the token is returned by calling the above request api
+```
+
+
 ## Socket
 
 ### Authentication for Pusher service URL (called by Pusher SDK)
