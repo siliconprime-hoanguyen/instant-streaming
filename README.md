@@ -81,6 +81,30 @@ GET /instantstream/get/:token //the token is returned by calling the above reque
 ```
 
 
+### Save chat in streaming
+
+```javascript
+POST /instantstream/savechat/:token //the token is returned by calling the above request api
+```
+
+#### Body
+
+```javascript
+{
+"role":['viewer', 'dealer'] //who chat in the stream?,
+"message": "xxxxx"
+}
+```
+
+
+### Get chat in streaming
+
+```javascript
+GET /instantstream/getchat/:token //the token is returned by calling the above request api
+```
+
+
+
 ## Socket
 
 ### Authentication for Pusher service URL (called by Pusher SDK)
