@@ -18,14 +18,25 @@
 ### Request stream
 
 ```javascript
-POST /instantstream/request
+POST /instantstream/request?notify=xxxx
 ```
 
 
 #### Body
 
 ```javascript
-none
+{
+  phone: '12312312',
+  email: 'abc@xyz.com'
+}
+```
+
+#### Queries
+
+```javascript
+{
+ notify: true //whether to notify the dealer about the stream
+}
 ```
 
 ### Start stream 
