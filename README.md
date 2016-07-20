@@ -110,7 +110,7 @@ GET /instantstream/getchat/:token //the token is returned by calling the above r
 ### Authentication for Pusher service URL (called by Pusher SDK)
 
 ```javascript
-POST /socket/auth
+POST /notifications/authchannel
 ```
 
 #### Body
