@@ -28,7 +28,7 @@ POST /instantstream/request?notify=xxxx
 {
   phone: '12312312',
   email: 'abc@xyz.com',
-  deviceAddress: 'xxxx', //optional, only mobile needs to provide this
+  deviceToken: 'xxxx', //optional, only mobile needs to provide this
   deviceType: 'android', //or ios, optional, only mobile needs to provide this
   bundleId: 'xxxx', //optional, only mobile needs to provide this
 }
@@ -53,7 +53,7 @@ POST /instantstream/start/:token //the token is returned by calling the above re
 ```javascript
 {
   "role":['viewer', 'dealer'], //who start the stream? optional, default is viewer
-  deviceAddress: 'xxxx', //optional, only mobile needs to provide this
+  deviceToken: 'xxxx', //optional, only mobile needs to provide this
   deviceType: 'android', //or ios, optional, only mobile needs to provide this
   bundleId: 'xxxx', //optional, only mobile needs to provide this
 }
