@@ -15,6 +15,26 @@
 
 
 
+
+### Update device
+
+```javascript
+POST /instantstream/updatedealerdevice/:token
+```
+
+
+#### Body
+
+```javascript
+{
+ 
+  deviceToken: 'xxxx', //optional, only mobile needs to provide this
+  deviceType: 'android', //or ios, optional, only mobile needs to provide this
+  bundleId: 'xxxx', //optional, only mobile needs to provide this
+}
+```
+
+
 ### Request stream
 
 ```javascript
