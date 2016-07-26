@@ -1,4 +1,4 @@
-  The channel for Pusher is private-tokenOfTheStream, the event is ~streaming~
+  The channel for Pusher is *private-tokenOfTheStream*, the event is *streaming*
   
   ```javascript
   start: {
