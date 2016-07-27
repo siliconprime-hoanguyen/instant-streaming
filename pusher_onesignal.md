@@ -8,12 +8,12 @@
   },
   cancel: {
     code: 2,
-    title: 'Stream is stopped',
-    message: 'Stream is stopped'
+    title: 'Stream is cancelled',
+    message: 'Stream is cancelled'
   },
   stop: {
     code: 3,
-    title: 'Stream is cancelled',
-    message: 'Stream is cancelled'
+    title: 'Stream is stopped',
+    message: 'Stream is stopped'
   }
   ```
