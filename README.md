@@ -142,6 +142,14 @@ GET /instantstream/getchat/:token //the token is returned by calling the above r
 
 
 
+
+### Ping while streaming for operator only
+
+```javascript
+POST /instantstream/ping/:token //the token is returned by calling the above request api
+```
+
+
 ## Socket
 
 ### Authentication for Pusher service URL (called by Pusher SDK)
