@@ -141,6 +141,13 @@ GET /instantstream/getchat/:token //the token is returned by calling the above r
 ```
 
 
+### Record streaming
+
+```javascript
+GET /instantstream/record/:token //the token is returned by calling the above request api
+```
+
+
 
 
 ### Ping while streaming for operator only
