@@ -76,6 +76,8 @@ POST /instantstream/start/:token //the token is returned by calling the above re
   deviceToken: 'xxxx', //optional, only mobile needs to provide this
   deviceType: 'android', //or ios, optional, only mobile needs to provide this
   bundleId: 'xxxx', //optional, only mobile needs to provide this
+  longitude: '1231232',
+  latitude: '21321321'
 }
 ```
 
