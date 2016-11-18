@@ -143,6 +143,14 @@ GET /instantstream/getchat/:token //the token is returned by calling the above r
 ```
 
 
+
+### Get pending
+
+```javascript
+GET /instantstream/:accountId/pending //get pending direct for viewer account
+```
+
+
 ### Record streaming
 
 ```javascript
